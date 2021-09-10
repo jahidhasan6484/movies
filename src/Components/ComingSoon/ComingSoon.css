@@ -1,0 +1,76 @@
+.coming_soon {
+  background-image: linear-gradient(#000, #222325);
+}
+
+.comingSoon_card {
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.comingSoon_image {
+  height: 400px;
+  width: 100%;
+}
+
+.comingSoon_card:hover {
+  opacity: 0.8;
+  transform: scale(1.01);
+}
+
+.comingSoon_details {
+  margin: 1rem 2rem;
+  color: #fff;
+  border-bottom: 0.5px solid rgb(114, 114, 114);
+}
+
+.comingSoon_info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.comingSoon_source,
+.comingSoon_review {
+  text-transform: uppercase;
+  color: #e62b34;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.comingSoon_source:hover,
+.comingSoon_review:hover {
+  text-decoration: underline;
+}
+
+.movie_name {
+  text-align: left;
+  font-size: 1.5rem;
+}
+
+.section_top {
+  padding-top: 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section_title {
+  color: yellow;
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+}
+
+@media screen and (max-width: 412px) {
+  .section_top {
+    padding-top: 2rem;
+  }
+
+  .section_title {
+    color: yellow;
+    font-size: 1.25rem;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+  }
+}
