@@ -1,6 +1,8 @@
 import React from 'react';
 import './Home.css';
 import Fade from 'react-reveal/Fade';
+import Slide from 'react-reveal/Slide';
+import Pulse from 'react-reveal/Pulse';
 import image1 from '../../img/01.jpg';
 import image5 from '../../img/05.jpg';
 import image6 from '../../img/06.jpg';
@@ -19,51 +21,59 @@ const Home = () => {
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src={image1} class="img-fluid d-block w-100" alt="..." />
+                    <Pulse>
+                        <img src={image1} class="img-fluid d-block w-100" alt="..." />
+                    </Pulse>
                     <div class="carousel-caption">
-                        <Fade top>
+                        <Slide top>
                             <h5>Life Of A Goose</h5>
-                        </Fade>
-                        <Fade bottom>
+                        </Slide>
+                        <Slide bottom>
                             <p>The family Anatidae to comprises the genera Anser and Branta</p>
                             <Link to="/" className="home_button"><span>read review</span></Link>
-                        </Fade>
+                        </Slide>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src={image5} class="img-fluid d-block w-100" alt="..." />
+                    <Pulse>
+                        <img src={image5} class="img-fluid d-block w-100" alt="..." />
+                    </Pulse>
                     <div class="carousel-caption">
-                        <Fade top>
+                        <Slide top>
                             <h5>Star Warriors</h5>
-                        </Fade>
-                        <Fade bottom>
-                            <p>Story of some woman's struggles in life</p>
+                        </Slide>
+                        <Slide bottom>
+                            <p>The family Anatidae to comprises the genera Anser and Branta</p>
                             <Link to="/" className="home_button"><span>read review</span></Link>
-                        </Fade>
+                        </Slide>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src={image6} class="img-fluid d-block w-100" alt="..." />
+                    <Pulse>
+                        <img src={image6} class="img-fluid d-block w-100" alt="..." />
+                    </Pulse>
                     <div class="carousel-caption">
-                        <Fade top>
+                        <Slide top>
                             <h5>Gamble Box</h5>
-                        </Fade>
-                        <Fade bottom>
-                            <p>To play and wager on casino games through the Internet</p>
+                        </Slide>
+                        <Slide bottom>
+                            <p>The family Anatidae to comprises the genera Anser and Branta</p>
                             <Link to="/" className="home_button"><span>read review</span></Link>
-                        </Fade>
+                        </Slide>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src={image9} class="img-fluid d-block w-100" alt="..." />
+                    <Pulse>
+                        <img src={image9} class="img-fluid d-block w-100" alt="..." />
+                    </Pulse>
                     <div class="carousel-caption">
-                        <Fade top>
+                        <Slide top>
                             <h5>Light of Darkness</h5>
-                        </Fade>
-                        <Fade bottom>
-                            <p>Challenge yourself by playing the only hybrid creature in a world divided between two rival cultures</p>
+                        </Slide>
+                        <Slide bottom>
+                            <p>The family Anatidae to comprises the genera Anser and Branta</p>
                             <Link to="/" className="home_button"><span>read review</span></Link>
-                        </Fade>
+                        </Slide>
                     </div>
                 </div>
             </div>

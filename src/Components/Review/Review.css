@@ -1,0 +1,58 @@
+.review_card {
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.review_image {
+  height: 400px;
+  width: 100%;
+}
+
+.review_card:hover {
+  opacity: 0.8;
+  transform: scale(1.01);
+}
+
+.review_details {
+  margin: 1rem 2rem;
+  color: #fff;
+  border-bottom: 0.5px solid rgb(114, 114, 114);
+}
+
+.review_info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.review_source,
+.review {
+  text-transform: uppercase;
+  color: #e62b34;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.review_source:hover,
+.review:hover {
+  text-decoration: underline;
+}
+
+.movie_name {
+  text-align: left;
+  font-size: 1.5rem;
+}
+
+@media screen and (max-width: 412px) {
+  .section_top {
+    padding-top: 2rem;
+  }
+
+  .section_title {
+    color: yellow;
+    font-size: 1.25rem;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+  }
+}
