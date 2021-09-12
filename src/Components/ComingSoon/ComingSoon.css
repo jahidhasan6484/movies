@@ -6,6 +6,7 @@
 
 .card img {
     transition: transform .9s ease;
+    box-shadow: 10px 10px 50px #ccc;
 }
 
 .card img:hover {

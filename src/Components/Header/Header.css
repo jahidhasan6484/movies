@@ -19,14 +19,23 @@
 
 .nav-link {
   color: #eee!important;
-  transition: all 0.3s ease;
+  transition: all 1s ease;
+  margin-right: 1.30rem;
 }
 
 .nav-link:hover {
-  color: yellow!important;
-  letter-spacing: 2px;
+  color: #D52932!important;
 }
 
 .navbar-nav {
   text-align: right;
+}
+
+.navbar_menu {
+  display: flex;
+}
+
+.nav_links {
+  display: flex;
+  align-items: center;
 }

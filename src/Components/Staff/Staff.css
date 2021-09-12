@@ -1,0 +1,28 @@
+.staff_highlights {
+    margin-top: 7rem;
+    color: #eee;
+    padding: 5rem;
+}
+
+@media screen and (max-width: 412px) {
+    .staff_highlights {
+        color: #eee;
+        padding: 4rem;
+    }
+  }
+
+  .card_design {
+      background: none;
+  }
+
+  .staff_title {
+      color: #eee;
+      margin-top: 1.5rem;
+      padding-left: 1rem;
+      font-size: 1rem;
+      letter-spacing: 1px;
+  }
+
+  .staff_overlay {
+      background: transparent;
+  }
